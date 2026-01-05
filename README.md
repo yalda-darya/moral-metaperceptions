@@ -131,18 +131,18 @@ All figures in this repository are **final, publication-ready versions** corresp
 ## 👩‍🔬 Authors
 
 **Yalda Daryani**
-PhD Student, Social Psychology
-University of Southern California
+PhD Student, Social Psychology,
+University of Southern California,
 Morality & Language Lab
 
 **Parsa Hejabi**
-PhD Student, Computer Science
-University of Southern California
+PhD Student, Computer Science,
+University of Southern California,
 Morality & Language Lab
 
 **Morteza Dehghani**
-Professor, Psychology and Computer Science
-University of Southern California
+Professor, Psychology and Computer Science,
+University of Southern California,
 Morality & Language Lab
 
 ---
