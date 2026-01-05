@@ -72,7 +72,7 @@ In sum, the studies identify moral metaperceptions as a **distinct and malleable
 ├── study 4/
 │ ├── code & analysis/ # Feedback intervention analyses
 │ ├── figures/
-│ └── supplementary/ #material
+│ └── supplementary/ # material
 │
 ├── README.md # Project overview (this file)
 ├── LICENSE
