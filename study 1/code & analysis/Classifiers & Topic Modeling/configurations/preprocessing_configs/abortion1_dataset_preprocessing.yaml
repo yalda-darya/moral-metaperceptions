@@ -1,0 +1,9 @@
+dataset_name: abortion1
+input_path: data/raw/abortion_sentiment_prediction/abortion1.csv
+output_path: data/processed/abortion_sentiment_prediction
+random_states: [42, 43, 44, 45, 46]
+logs_dir: logs/preprocessing_logs
+label_map:
+  life: 0
+  choice: 1
+  throw_out: 2

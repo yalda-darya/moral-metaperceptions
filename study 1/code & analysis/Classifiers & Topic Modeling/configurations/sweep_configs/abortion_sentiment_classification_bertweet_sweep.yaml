@@ -1,0 +1,24 @@
+name: abortion-classification-sweep-BERTweet
+method: bayes
+metric:
+  goal: minimize
+  name: val/avg_loss
+parameters:
+  learning_rate:
+    distribution: log_uniform_values
+    min: 5e-6
+    max: 1e-4
+  batch_size:
+    distribution: categorical
+    values: [8, 16, 32]
+  num_epochs:
+    distribution: int_uniform
+    min: 2
+    max: 7
+  early_stopping_patience:
+    distribution: constant
+    value: 3
+  num_warmup_steps:
+    distribution: int_uniform
+    min: 10
+    max: 125

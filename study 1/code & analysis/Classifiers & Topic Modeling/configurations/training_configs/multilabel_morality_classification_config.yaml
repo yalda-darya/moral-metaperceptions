@@ -1,0 +1,11 @@
+task_name: moral_values_prediction
+task_type: multilabel
+dataset_names: [multilabel_morality]
+random_states: [42, 43, 44, 45, 46]
+logs_dir: logs/training_logs
+model_num_labels: 5
+wandb:
+  use_sweep: True
+  entity: parsahejabi
+  project: multilabel-moral-values-classification
+  count: 5

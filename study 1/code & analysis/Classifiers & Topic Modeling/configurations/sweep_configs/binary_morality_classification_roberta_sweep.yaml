@@ -1,0 +1,23 @@
+name: binary-morality-classification-sweep-roberta
+method: bayes
+metric:
+  goal: minimize
+  name: val/avg_loss
+parameters:
+  learning_rate:
+    distribution: log_uniform_values
+    min: 1e-6
+    max: 1e-4
+  batch_size:
+    distribution: categorical
+    values: [4, 8, 16]
+  num_epochs:
+    distribution: categorical
+    values: [3, 4]
+  early_stopping_patience:
+    distribution: constant
+    value: 2
+  num_warmup_steps:
+    distribution: int_uniform
+    min: 10
+    max: 125

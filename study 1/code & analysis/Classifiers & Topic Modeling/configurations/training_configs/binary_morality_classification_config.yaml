@@ -1,0 +1,11 @@
+task_name: moral_values_prediction
+dataset_names: [binary_morality]
+dataset_random_states: [42, 43, 44, 45, 46]
+random_states: [42, 43, 44, 45, 46]
+logs_dir: logs/training_logs
+model_num_labels: 2
+wandb:
+  use_sweep: True
+  entity: parsahejabi
+  project: binary-moral-values-classification
+  count: 5
