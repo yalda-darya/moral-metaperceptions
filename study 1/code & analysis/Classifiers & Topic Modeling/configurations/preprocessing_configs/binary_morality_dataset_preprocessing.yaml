@@ -1,0 +1,9 @@
+dataset_name: binary_morality
+mftc_input_path: data/raw/moral_values_prediction/mftc.csv
+mfrc_input_path: data/raw/moral_values_prediction/mfrc.csv
+output_path: data/processed/moral_values_prediction
+random_states: [42, 43, 44, 45, 46]
+logs_dir: logs/preprocessing_logs
+label_map:
+  non-moral: 0
+  moral: 1

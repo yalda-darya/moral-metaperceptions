@@ -1,0 +1,2 @@
+model_name: "KM4STfulltext/SSCI-BERT-e4"
+max_input_length: 512

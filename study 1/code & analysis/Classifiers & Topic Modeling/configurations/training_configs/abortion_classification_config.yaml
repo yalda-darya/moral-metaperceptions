@@ -1,0 +1,12 @@
+task_name: abortion_sentiment_prediction
+task_type: multiclass
+dataset_names: [abortion]
+random_states: [42, 43, 44, 45, 46]
+logs_dir: logs/training_logs
+model_num_labels: 4
+variation: with_weighted_loss_2
+wandb:
+  use_sweep: True
+  entity: parsahejabi
+  project: abortion-sentiment-classification
+  count: 20

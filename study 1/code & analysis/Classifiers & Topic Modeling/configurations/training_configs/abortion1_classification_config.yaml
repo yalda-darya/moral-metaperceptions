@@ -1,0 +1,10 @@
+task_name: abortion_sentiment_prediction
+dataset_names: [abortion1]
+random_states: [42, 43, 44, 45, 46]
+logs_dir: logs/training_logs
+model_num_labels: 3
+wandb:
+  use_sweep: True
+  entity: parsahejabi
+  project: abortion-sentiment-classification
+  count: 10

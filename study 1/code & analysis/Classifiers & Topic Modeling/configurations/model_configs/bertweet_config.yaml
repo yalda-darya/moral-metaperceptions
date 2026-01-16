@@ -1,0 +1,2 @@
+model_name: "vinai/bertweet-base"
+max_input_length: 128
